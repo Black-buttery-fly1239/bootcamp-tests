@@ -1,18 +1,18 @@
 describe('regCheck function' , function(){
-    it('should check if a registration number endsWith GP, L, EC, MP return true' , function(){
+    it('should check if a registration number endsWith GP return true' , function(){
         assert.equal(regCheck("DV 23 NB GP", 'GP'),true);
     }); 
     
-    it('should check if the registration number endswith GP, L, EC, MP return true' , function(){
-         assert.equal(regCheck("DV 24 LP MP", 'MP'),true);
+    it('should check if the registration number endswith MP return true' , function(){
+         assert.equal(regCheck("DV 249 LP MP", 'MP'),true);
      });
 
-     it('should check if the registration number endswith GP, L, EC, MP return true' , function(){
-        assert.equal(regCheck("DV 25 LP L", 'L'),true);
+     it('should check if the registration number endswith L return true' , function(){
+        assert.equal(regCheck("DV 258 LP L", 'L'),true);
     });
 
-    it('should check if the registration number endswith GP, L, EC, MP return true' , function(){
-        assert.equal(regCheck("DV 26 LP EC", 'EC'),true);
+    it('should check if the registration number endswith EC return true' , function(){
+        assert.equal(regCheck("DV 267 LP EC", 'EC'),true);
     });
 
 

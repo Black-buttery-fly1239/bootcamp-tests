@@ -9,13 +9,10 @@ describe('fromWhere' , function(){
 
     });
 
-    it('should return the town the car is from, if the reg number starts with CA, return Paarl ' , function(){
+    it('should return the town the car is from, if the reg number starts with CA, return Cape town ' , function(){
         assert.equal(fromWhere("CA 7654"), "Cape Town");
 
     });
 
-    it('should return the town the car is from, if the reg number is default or does not match any of these places given, return some other place! ' , function(){
-        assert.equal(fromWhere("CY 8970"), "Some other place!");
 
-    });
 });
