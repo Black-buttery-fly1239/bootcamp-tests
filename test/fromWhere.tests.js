@@ -15,7 +15,7 @@ describe('fromWhere' , function(){
     });
 
     it('should return the town the car is from, if the reg number is default or does not match any of these places given, return some other place! ' , function(){
-        assert.equal(fromWhere("CY 890"), "Some other place!");
+        assert.equal(fromWhere("CY 8970"), "Some other place!");
 
     });
 });

@@ -9,8 +9,8 @@ describe('transportFee' , function(){
 
     });
 
-    it('should return the right price based on the shift you are working on, if else return free ' , function(){
-        assert.equal(transportFee("else"), "free");
+    it('should return the right price based on the shift you are working on, if it a night shift return free ' , function(){
+        assert.equal(transportFee("night"), "free");
 
     });
     });
