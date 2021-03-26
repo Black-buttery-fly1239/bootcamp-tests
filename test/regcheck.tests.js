@@ -17,11 +17,11 @@ describe('regCheck function' , function(){
 
 
 
-     it('should check if the registration number doesnot endswith GP, L, EC, MP return false' , function(){
+     it('should check if the registration number endswith CY return false' , function(){
         assert.equal(regCheck("'CY189-012', 'CY'"),false);
     });
 
-    it('should check if the registration number doesnot endswith GP, L, EC, MP return false' , function(){
+    it('should check if the registration number endswith ND return false' , function(){
         assert.equal(regCheck("CY189-012', 'ND'"),false);
     });
 
