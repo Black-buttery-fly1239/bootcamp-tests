@@ -32,6 +32,6 @@ describe('mostProfitableDepartment' , function(){
         {department: 'carpentry', sales: 6109, day: 'Thursday'},
         {department: 'hardware', sales: 7005, day: 'Friday'},
         {department: 'outdoor', sales: 12006, day: 'Friday'},
-        {department: 'carpentry', sales: 16109, day: 'Friday'}]),'outdoor', 'hardware');
+        {department: 'carpentry', sales: 16109, day: 'Friday'}]), 'outdoor','hardware');
     }); 
 });
